@@ -2,27 +2,27 @@
 
 /* App Module */
 
-var phonecatApp = angular.module('phonecatApp', [
+var photosApp = angular.module('photosApp', [
   'ngRoute',
-  'phonecatAnimations',
+  'photosAnimations',
 
-  'phonecatControllers',
-  'phonecatFilters',
-  'phonecatServices'
+  'photosControllers',
+  'photosFilters',
+  'photosServices'
 ]);
 
-phonecatApp.config(['$routeProvider',
+photosApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
-      when('/phones', {
-        templateUrl: 'partials/phone-list.html',
-        controller: 'PhoneListCtrl'
+      when('/photos', {
+        templateUrl: 'partials/photo-list.html',
+        controller: 'PhotoListCtrl'
       }).
-      when('/phones/:phoneId', {
-        templateUrl: 'partials/phone-detail.html',
-        controller: 'PhoneDetailCtrl'
+      when('/photo/:photoId', {
+        templateUrl: 'partials/photo-detail.html',
+        controller: 'PhotoDetailCtrl'
       }).
       otherwise({
-        redirectTo: '/phones'
+        redirectTo: '/photos'
       });
   }]);
