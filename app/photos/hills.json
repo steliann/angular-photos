@@ -9,5 +9,6 @@
 	"flash": ["Auto", "Fired"],
 	"focal-length": "4",
 	"iso-speed": "800",
+	"imageUrl": "img/photos/hills.jpg",
 	"description": "Beautiful hills during autumn"
 }

@@ -3,7 +3,7 @@
 		"age": 4,
 		"id": "hills",
 		"name": "Hills",
-		"imageUrl": "/img/photos/hills.jpg",
+		"imageUrl": "img/photos/hills.jpg",
 		"make": "Apple",
 		"snippet": "Beautiful hills in the autumn"
 	},
@@ -11,7 +11,7 @@
 		"age": 2,
 		"id": "horses",
 		"name": "Horses",
-		"imageUrl": "/img/photos/horses.jpg",
+		"imageUrl": "img/photos/horses.jpg",
 		"make": "Nikon",
 		"snippet": "Running horses"
 	},
@@ -19,7 +19,7 @@
 		"age": 1,
 		"id": "mountains",
 		"name": "Mountains",
-		"imageUrl": "/img/photos/mountains.jpg",
+		"imageUrl": "img/photos/mountains.jpg",
 		"make": "Apple",
 		"snippet": "Winter in the mountains"
 	},
@@ -27,7 +27,7 @@
 		"age": 3,
 		"id": "sea-side",
 		"name": "Sea Side",
-		"imageUrl": "/img/photos/sea-side.jpg",
+		"imageUrl": "img/photos/sea-side.jpg",
 		"make": "Fujifilm",
 		"snippet": "By the sea side"
 	}

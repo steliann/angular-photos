@@ -9,5 +9,6 @@
 	"flash": ["Auto"],
 	"focal-length": "4",
 	"iso-speed": "800",
+	"imageUrl": "img/photos/horses.jpg",
 	"description": "Running horses"
 }

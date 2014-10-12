@@ -1,6 +1,6 @@
 {
 	"name": "Mountains",
-	"content-type": "image/jpeg",
+	"content-type": "jpeg",
 	"date": "2013:09:03 21:26:39",
 	"dimensions": "3264 x 2448",
 	"exposure-program": "Normal",
@@ -8,6 +8,7 @@
 	"f-stop": "3.2",
 	"flash": ["Auto", "Fired"],
 	"focal-length": "4",
-	"iso-speed": "1600",
-	"description": "Winter in he mountains"
+	"iso-speed": "1600M",
+	"imageUrl": "img/photos/mountains.jpg",
+	"description": "Winter in the mountains"
 }

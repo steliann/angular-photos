@@ -1,5 +1,5 @@
 {
-	"name": "Sea ide",
+	"name": "Sea Sßide",
 	"content-type": "image/jpeg",
 	"date": "2013:08:03 21:26:39",
 	"dimensions": "3264 x 2448",
@@ -9,5 +9,6 @@
 	"flash": ["None"],
 	"focal-length": "4",
 	"iso-speed": "800",
+	"imageUrl": "img/photos/sea-side.jpg",
 	"description": "By the sea side"
 }

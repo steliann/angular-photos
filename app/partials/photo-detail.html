@@ -1,19 +1,11 @@
 <div class="photo-images">
-  <img ng-src="{{img}}"
-       class="photo"
-       ng-repeat="img in photo.images"
-       ng-class="{active: mainImageUrl==img}">
+  <img ng-src="{{photo.imageUrl}}"
+       class="photo">
 </div>
 
 <h1>{{photo.name}}</h1>
 
 <p>{{photo.description}}</p>
-
-<ul class="photo-thumbs">
-  <li ng-repeat="img in photos.images">
-    <img ng-src="{{img}}" ng-click="setImage(img)">
-  </li>
-</ul>
 
 <ul class="specs">
   <li>
@@ -45,14 +37,3 @@
     </dl>
   </li>
 </ul>
-
-"name": "Hills",
-	"content-type": "image/jpeg",
-	"date": "2013:10:03 21:26:39",
-	"dimensions": "3264 x 2448",
-	"exposure-program": "Normal",
-	"exposure-time": "1/16",
-	"f-stop": "2.4",
-	"flash": "Auto, Fired",
-	"focal-length": "4",
-	"iso-speed": "800",
